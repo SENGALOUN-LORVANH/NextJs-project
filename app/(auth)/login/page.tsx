@@ -2,8 +2,8 @@ import React from 'react'
 
 const LoginPage = () => {
   return (
-    <div>
-      <h1>Register page</h1>
+    <div className='flex flex-col items-center justify-center'>
+      <h1>Login page</h1>
     </div>
   )
 }

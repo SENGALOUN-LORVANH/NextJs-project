@@ -2,7 +2,7 @@ import React from 'react'
 
 const RegisterPage = () => {
   return (
-    <div>
+    <div className='flex flex-col items-center justify-center'>
       <h1>Register page</h1>
     </div>
   )
