@@ -1,7 +1,8 @@
 import React from 'react';
 import Link from 'next/link';
 
-const CampPage = () => {
+const CampPage = async () => {
+    await new Promise(resolve => setTimeout(resolve, 500));
     return (
         <div>
             <header>
